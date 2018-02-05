@@ -1,8 +1,8 @@
 #include<stdio.h>
 void main()
 {
-int l,b;
+float l,b;
 printf("Enter the length and breadth");
-scanf("%d\%d",&l,&b);
-printf("the area of the farm is %d",l*b);
+scanf("%f\%f",&l,&b);
+printf("the area of the farm is %f",l*b);
 }
